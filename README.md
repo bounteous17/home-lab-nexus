@@ -69,7 +69,9 @@ The goal of this setup is to create a reliable environment for experimenting wit
 ## 📜 Infrastructure as Code (IaC)
 
 - Pulumi for Kubernetes and Helm chart deployments: https://github.com/bounteous17/pulumi-kubernetes-home-lab
-- Ansible for k3s nodes provisioning: https://github.com/k3s-io/k3s-ansible
+- Ansible for k3s nodes provisioning and managenent:
+  - https://github.com/k3s-io/k3s-ansible
+  - https://github.com/bounteous17/ansible-home-lab
 
 ## 📝 Lessons Learned
 
