@@ -52,7 +52,7 @@ The goal of this setup is to create a reliable environment for experimenting wit
 
 | **VLAN ID** | **Purpose**                      | **Subnet**       |
 | ----------- | -------------------------------- | ---------------- |
-| 10          | People                           | `192.168.0.0/24` |
+| 10          | Home devices                     | `192.168.0.0/24` |
 | 20          | Kubernetes Nodes and backup host | `192.168.1.0/24` |
 
 ## ☸️ Kubernetes Cluster Configuration
@@ -67,15 +67,14 @@ The goal of this setup is to create a reliable environment for experimenting wit
 
 ## 📜 Infrastructure as Code (IaC)
 
-Pulumi for Kubernetes and Helm chart deployments
-
-- https://github.com/bounteous17/pulumi-kubernetes-home-lab
+- Pulumi for Kubernetes and Helm chart deployments: https://github.com/bounteous17/pulumi-kubernetes-home-lab
+- Ansible for k3s nodes provisioning: https://github.com/k3s-io/k3s-ansible
 
 ## 📝 Lessons Learned
 
 - **Networking Complexity**: VLANs help, but troubleshooting misconfigurations can be time-consuming.
 - **Storage Redundancy**: RAID 5 provides a good balance between redundancy and capacity.
-- **Automation**: IaC tools (Terraform and Pulumi) streamline configuration, but maintaining them requires diligence.
+- **Automation**: IaC tools (Ansible and Pulumi) streamline configuration, but maintaining them requires diligence.
 
 ### Diagram
 
