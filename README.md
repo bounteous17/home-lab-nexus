@@ -36,13 +36,14 @@ The goal of this setup is to create a reliable environment for experimenting wit
 
 ## 🛠️ Hardware
 
-| **Component**          | **Details**                                                                                                                           |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Servers**            | [2x NiPoGi AK1Plus Mini PC](https://www.amazon.es/dp/B099KMCT4X?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)                               |
-| **Storage**            | 1.5TB RAID 5 backup server (old AMD64 machine)                                                                                        |
-| **Networking**         | [Mikrotik L009UiGS-2HaxD-IN](https://mikrotik.com/product/l009uigs_2haxd_in)                                                          |
-| **Switches**           | [MERCUSYS HUB Switch 5 PTOS 10/100/1000](https://www.amazon.es/gp/product/B07RK6CVS3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) |
-| **Additional Devices** | [Raspberry Pi 4 4gb for lightweight tasks](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)                              |
+| **Component**       | **Details**                                                                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **k3s AMD64**       | [2x NiPoGi AK1Plus Mini PC](https://www.amazon.es/dp/B099KMCT4X?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)                                       |
+| **k3s ARM64**       | [Raspberry Pi 4 4gb for lightweight tasks](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)                                      |
+| **Power suppliers** | [Anker PowerPort 6 Charger USB 60W with 6 ports](https://www.amazon.es/gp/product/B00PTLSH9G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) |
+| **Storage**         | 1.5tb RAID 5 x4 1tb HDDs backup server (old AMD64 machine)                                                                                    |
+| **Networking**      | [Mikrotik L009UiGS-2HaxD-IN](https://mikrotik.com/product/l009uigs_2haxd_in)                                                                  |
+| **Switches**        | [MERCUSYS HUB Switch 5 PTOS 10/100/1000](https://www.amazon.es/gp/product/B07RK6CVS3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)         |
 
 ---
 
@@ -75,6 +76,16 @@ The goal of this setup is to create a reliable environment for experimenting wit
 - **Networking Complexity**: VLANs help, but troubleshooting misconfigurations can be time-consuming.
 - **Storage Redundancy**: RAID 5 provides a good balance between redundancy and capacity.
 - **Automation**: IaC tools (Ansible and Pulumi) streamline configuration, but maintaining them requires diligence.
+
+## 🖼️ Image Gallery
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="media/global-view.HEIC" width="250">
+  <img src="media/longhorn-snapshots-machine.HEICC" width="250">
+  <img src="media/k3s-amd-node-1.HEIC" width="250">
+  <img src="media/k3s-amd-node-2.HEIC" width="250">
+  <img src="media/k3s-arm64-nodes.HEIC" width="250">
+</div>
 
 ### Diagram
 
