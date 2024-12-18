@@ -79,13 +79,11 @@ The goal of this setup is to create a reliable environment for experimenting wit
 
 ## 🖼️ Image Gallery
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="media/global-view.HEIC" width="250">
-  <img src="media/longhorn-snapshots-machine.HEICC" width="250">
-  <img src="media/k3s-amd-node-1.HEIC" width="250">
-  <img src="media/k3s-amd-node-2.HEIC" width="250">
-  <img src="media/k3s-arm64-nodes.HEIC" width="250">
-</div>
+<img src="media/global-view.jpg" width="18%">
+<img src="media/longhorn-snapshots-machine.jpg" width="18%">
+<img src="media/k3s-amd-node-1.jpg" width="18%">
+<img src="media/k3s-amd-node-2.jpg" width="18%">
+<img src="media/k3s-arm64-nodes.jpg" width="18%">
 
 ### Diagram
 
